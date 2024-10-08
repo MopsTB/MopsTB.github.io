@@ -1,0 +1,145 @@
+.text1 {
+    color: white;
+    font-size: x-large;
+    font-family:Arial;
+    position: relative; 
+    left: 40px;
+    display: flex;
+}
+.tovaritxt{
+    color: white;
+    font-size: xx-large;
+    font-family:Arial;
+    position: relative; 
+    text-align: center;
+}
+.logo2{
+    top: 50px;
+    width: 200px;
+    text-align:left;
+    background-color: black;
+    display: flex;
+}
+.logo{
+    width: 200px;
+    background-color: black;
+    overflow: hidden;
+}
+.button{
+    padding: 0px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    font-size: xx-large;
+    font-family:Arial;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;  
+}
+.kurwa{
+    display: flex;
+    border-color: seagreen;
+    background-color: gold;
+}
+.nas{
+    text-align: center;
+}
+
+.buttona {
+    
+    display: inline-block;
+    background: gray;
+    color: #fff;
+    padding: 12px;
+    border-radius: 40px;
+    text-decoration: none;
+    line-height: 1;
+    font-weight: 100;
+    font-size: xx-large;
+    font-family:Arial;
+    a{
+        max-width: 100px;
+    }
+      padding-bottom: 3px;
+}
+
+.module {
+    border-radius: 10%;
+    width: 20vw;
+    height: 450px;
+    width: 350px;
+
+    margin: 10pt;
+    padding: 10pt;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+
+    h2,
+    p {
+        font-size: small;
+        color: white;
+        font-family: arial black;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        vertical-align: center;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+   
+    a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .available {
+        color: #28ecbb;
+        p {
+            font-size: xx-large;
+        }
+    }
+    
+    .not_available {
+        color: #222222;
+        p {
+            font-size: large;
+        }
+    }
+}
+
+.module_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.kartina{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.karttovar{
+    width: 400px;
+    background-color: black;
+    padding-left: 20px;
+    float:left;
+    padding-right: 10px; 
+    
+}
+.Cena{
+    color: white;
+    font-size: x-large;
+    font-family:Arial;
+    text-align: center;
+}
+.txttovar{
+    color: white;
+    font-size: x-large;
+    font-family:Arial;
+    text-align: left;
+}
