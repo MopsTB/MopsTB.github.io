@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Инфа</title>
     <link href="main.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
 </head>
 
 <body style="background-color: black">
     <header>
-        <a href="index.html"><img сlass="logo" src="logo250.jpg" alt="Логотип шопа"></a>
-        <a class="buttona" href="index.html">Товары</a>
-        <a class="buttona" href="we.html">О нас</a>
-    </header>
+        <a href="index.html"><img src="logo250.jpg" class="logo" alt="Логотип шопа"></a>
+        <div class="headics">
+          <a class="buttona btn-warning" href="index.html">Товары</a>
+          <a class="buttona btn-warning" href="we.html">О нас</a>
+        </div>
+      </header>
         <main>
             <h2 class="tovaritxt">О нас</h2>
             <section class="kurwa">
@@ -24,9 +27,10 @@
                     <p class="text1">Магазин разработал Аверьянов Владислав Максимович, обущающийся в ИРНИТУ в группе ИББ-23-1.</p>
                 </div>
             </section>
-            <section class="vcard">
+            <section>
                 <h2 class="tovaritxt">Контактная информация</h2>
-                <a class="email" href="https://t.me/mops_tb">Telegram</a>
+                <a href="https://t.me/mops_tb"><img class="kontakt" src="tg.png"></a>
+                <a href="tel:89022124323"><img class="kontakt" src="telephone.png"></a>
             </section>
         </main>
 </body>

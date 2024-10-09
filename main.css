@@ -20,70 +20,62 @@
     background-color: black;
     display: flex;
 }
+
+
 .logo{
-    width: 200px;
-    background-color: black;
-    overflow: hidden;
+    width: 50%;
+    min-width: 300px;
+    max-width: 440px;
 }
-.button{
-    padding: 0px;
-    color: white;
-    background-color: gray;
-    text-align: center;
-    font-size: xx-large;
-    font-family:Arial;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;  
-}
+
+
 .kurwa{
     display: flex;
     border-color: seagreen;
-    background-color: gold;
+    background-color: #383838;
 }
 .nas{
     text-align: center;
 }
-
-.buttona {
-    
+.headics{
     display: inline-block;
-    background: gray;
+}
+.buttona {
+    display: inline-block;
+    background: #383838;
     color: #fff;
     padding: 12px;
-    border-radius: 40px;
+    border-radius: 10px;
+    margin: 15px;
     text-decoration: none;
     line-height: 1;
     font-weight: 100;
     font-size: xx-large;
     font-family:Arial;
-    a{
-        max-width: 100px;
-    }
-      padding-bottom: 3px;
 }
 
 .module {
-    border-radius: 10%;
+    border-radius: 3%;
     width: 20vw;
     height: 450px;
-    width: 350px;
+    width: 450px;
 
-    margin: 10pt;
+    margin: 9pt;
     padding: 10pt;
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: white;
 
     h2,
     p {
-        font-size: small;
-        color: white;
-        font-family: arial black;
+        font-size: large;
+        color: black;
+        font-family: arial black ;
         text-align: center;
         margin-top: auto;
         margin-bottom: auto;
         vertical-align: center;
+        
     }
 
     h2 {
@@ -97,7 +89,7 @@
     }
 
     .available {
-        color: #28ecbb;
+        color: #b139fe;
         p {
             font-size: xx-large;
         }
@@ -124,11 +116,13 @@
 
 }
 .karttovar{
-    width: 400px;
+    max-width: 400px;
     background-color: black;
     padding-left: 20px;
     float:left;
     padding-right: 10px; 
+    width: 50%;
+    min-width: 300px;
     
 }
 .Cena{
@@ -143,3 +137,12 @@
     font-family:Arial;
     text-align: left;
 }
+.kontakt{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+    
+  }
