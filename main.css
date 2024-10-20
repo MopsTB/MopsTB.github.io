@@ -103,10 +103,12 @@
     flex-wrap: wrap;
 }
 .kartina{
-    width: 200px;
+    width: 170px;
     margin-left: auto;
     margin-right: auto;
-
+}
+.kartina:hover{
+    transform: scale(1.12);
 }
 .karttovar{
     max-width: 400px;
@@ -119,7 +121,7 @@
 }
 .Cena{
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
     font-family:Arial;
     text-align: center;
 }
@@ -142,4 +144,18 @@
     font-family:Arial;
     float: right;
     margin-left: 10px;
+}
+.battov{
+    background: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    line-height: 1;
+    font-weight: 100;
+    font-size: xx-large;
+    font-family:Arial;
+    text-align: center;
 }
